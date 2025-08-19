@@ -90,12 +90,19 @@ Live Website: [Credit Card Fraud Detection](https://credit-card-fraud.netlify.ap
 ## 📂 Project Structure
 creditcardproject/
 │── src/ # React + Vite + Tailwind source
+
 │── notebooks/ # Jupyter notebooks with ML models
+
 │── assets/ # Confusion Matrix, ROC Curve images
+
 │── index.html # Entry point
+
 │── package.json # Dependencies
+
 │── vite.config.ts # Vite configuration
+
 │── LICENSE # MIT License
+
 │── README.md # Documentation
 
 ---
