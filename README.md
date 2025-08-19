@@ -68,10 +68,10 @@ The system provides:
 
 ## 📊 Results
 - **Confusion Matrix**  
-  ![Confusion Matrix](assets/confusion_matrix.png)  
+  ![Confusion Matrix]  
 
 - **ROC Curve**  
-  ![ROC Curve](assets/roc_curve.png)  
+  ![ROC Curve]
 
 - **Sample Metrics:**  
   - Accuracy: 99.7%  
