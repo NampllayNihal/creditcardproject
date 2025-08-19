@@ -55,29 +55,29 @@ The system provides:
    - Metrics: Accuracy, Precision, Recall, F1-score, AUC  
 
 4. **Web Dashboard**
-   - CSV Upload → batch predictions  
-   - Manual Entry:
-     - Amount (₹)  
-     - Category (typed manually)  
-     - Location (typed manually)  
-     - Date/Time (auto IST)  
+   - **CSV Upload** → batch predictions  
+   - **Manual Transaction Entry**
+     - Time (seconds from first transaction) → e.g., 3600  
+     - Amount (₹) → e.g., 1500.00  
+     - PCA Features (V1–V5) – Optional (leave empty for automatic feature generation)  
+       - V1, V2, V3, V4, V5  
      - **No. of Previous Transactions in Last 24 Hours** (numeric entry)  
-   - Last 24 Hours Transactions Count panel  
-
+   
 ---
 
 ## 📊 Results
-![Confusion Matrix]
+![Confusion Matrix](confusion_matrix.png)
 
-![ROC Curve]
+![ROC Curve](roc_curve.png)
 
 
-- **Sample Metrics:**  
+- **Sample Metrics (XGBoost):**  
   - Accuracy: 99.7%  
-  - Precision: XX%  
-  - Recall: XX%  
-  - F1-Score: XX%  
-  - AUC: XX%  
+  - Precision: 92.5%  
+  - Recall: 89.3%  
+  - F1-Score: 90.8%  
+  - AUC: 0.987  
+
 
 ---
 
@@ -89,19 +89,12 @@ Live Website: [Credit Card Fraud Detection](https://credit-card-fraud.netlify.ap
 ## 📂 Project Structure
 creditcardproject/
 │── src/ # React + Vite + Tailwind source
-
 │── notebooks/ # Jupyter notebooks with ML models
-
 │── assets/ # Confusion Matrix, ROC Curve images
-
 │── index.html # Entry point
-
 │── package.json # Dependencies
-
 │── vite.config.ts # Vite configuration
-
 │── LICENSE # MIT License
-
 │── README.md # Documentation
 
 ---
