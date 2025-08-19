@@ -67,8 +67,9 @@ The system provides:
 ---
 
 ## 📊 Results
-![Confusion Matrix](assets/confusion_matrix.png)
-![ROC Curve](assets/roc_curve.png)
+![Confusion Matrix]
+
+![ROC Curve]
 
 
 - **Sample Metrics:**  
